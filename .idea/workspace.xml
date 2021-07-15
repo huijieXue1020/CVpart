@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bc7cb3d-6dcc-4be9-bfc6-397e1fe0d214" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/fall_detection_googlenet_20.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/miniGoogle_new_fall_20.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldcare/CV_part/fall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldcare/CV_part/fence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldcare/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldcare/utils/fenceTool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldcare/utils/getfromURL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldcare/utils/timecontroller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223643.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223644.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223646.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223647.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223648.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223649.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223650.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223651.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223652.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223653.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223654.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223655.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223656.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223657.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223658.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supervision/fall/snapshot_20210712_223659.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/fence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/stranger_emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Area_detection/supervision/fence/snapshot_20210711_233916.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Area_detection/supervision/fence/snapshot_20210711_233925.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall_detection/models/miniGoogle_new_fall_20.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall_detection/plots/miniGoogle_new_fall_20_accuracy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall_detection/plots/miniGoogle_new_fall_20_loss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emotion/plots/vgg_test_accuracy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emotion/plots/vgg_test_loss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emotion/supervision/strangers/snapshot_20210711_235655.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emotion/supervision/strangers/snapshot_20210711_235656.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emotion/supervision/strangers/snapshot_20210711_235657.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkingfence.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkingfence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldcare/CV_part/emotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/oldcare/CV_part/emotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldcare/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oldcare/CV_part/collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldcare/camera/camerautil.py" beforeDir="false" afterPath="$PROJECT_DIR$/oldcare/camera/camerautil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldcare/facial/faceutildlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/oldcare/facial/faceutildlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startingcameraservice.py" beforeDir="false" afterPath="$PROJECT_DIR$/startingcameraservice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/smile/snapshot_20210708_222716.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/smile/snapshot_20210708_222717.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/smile/snapshot_20210708_222719.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/smile/snapshot_20210708_222953.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212738.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212925.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212926.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212928.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212929.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_212930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_213209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_213210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_213211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_213212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_213213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_213214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_213215.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214535.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214643.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214644.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214645.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214646.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214647.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214648.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214649.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214650.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214651.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214658.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214659.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214701.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214702.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214709.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214710.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214711.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214712.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214713.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214717.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214718.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214719.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214720.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214721.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214722.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214723.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214724.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214725.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_214726.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222622.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222623.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222624.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222633.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222634.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222635.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222636.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222637.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222639.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222641.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222643.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222644.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222645.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222646.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222647.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222648.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222712.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222931.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222938.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_222940.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_224242.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210708_224244.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_000103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_000104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_000105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_000106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_000147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_000148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001849.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001851.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001852.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001853.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001854.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001855.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001857.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001859.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001901.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001902.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001903.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001904.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001905.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001906.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001907.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001908.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001910.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001912.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001913.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001915.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001916.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001917.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001918.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001919.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001921.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001923.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001924.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001925.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001926.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001928.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001929.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001931.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001932.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001933.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001935.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001936.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001937.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001940.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001941.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001944.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001945.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001948.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001949.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001950.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001952.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001953.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001954.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001955.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001956.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001957.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001958.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_001959.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_002105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_002106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_002107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_084412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_084413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_084414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_084415.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085651.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085653.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085655.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085656.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085657.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085658.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085659.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085703.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085704.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085733.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085734.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085735.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085752.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085753.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085754.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085755.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085756.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085757.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085804.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085805.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085806.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085807.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085813.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085816.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085817.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085831.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085835.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_085849.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092423.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092424.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092427.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092428.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092610.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092611.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092613.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092614.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092615.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092616.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_092631.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104504.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104505.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104506.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104507.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104508.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104510.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104511.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervision/strangers/snapshot_20210709_104514.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/corridor_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/collection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/desk_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/yard_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/fall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Area_detection/checkingfence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Area_detection/checkingfence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall_detection/trainingfalldetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall_detection/trainingfalldetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bow_head_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emotion/checkingstrangersandfacialexpression2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../emotion/checkingstrangersandfacialexpression2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emotion/oldcare/facial/faceutildlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../emotion/oldcare/facial/faceutildlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emotion/testingfacialexpression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../emotion/testingfacialexpression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emotion/trainingfacialexpression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../emotion/trainingfacialexpression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../face_collection/oldcare/facial/faceutildlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../face_collection/oldcare/facial/faceutildlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../facedection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../facedection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test3.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1vDmZiVashnl0FBP3NF5mMRQSSw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="startingcameraservice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="A_Final_Sys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/startingcameraservice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.startingcameraservice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bc7cb3d-6dcc-4be9-bfc6-397e1fe0d214" name="Default Changelist" comment="" />
+      <created>1626105090855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626105090855</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1515" height="191" key="GridCell.Tab.0.bottom" timestamp="1626106299378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626106299378" />
+    <state width="1515" height="191" key="GridCell.Tab.0.center" timestamp="1626106299378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626106299378" />
+    <state width="1515" height="191" key="GridCell.Tab.0.left" timestamp="1626106299378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626106299378" />
+    <state width="1515" height="191" key="GridCell.Tab.0.right" timestamp="1626106299378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626106299378" />
+    <state x="564" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626105343528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="564" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1626105343528" />
+  </component>
+</project>
